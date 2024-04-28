@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { PerformanceMonitor } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import Wavy from "./wavy";
 import Experience from "./Experience";
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
     >
       <PerformanceMonitor onIncline={() => setDpr(2)} onDecline={() => setDpr(1)}></PerformanceMonitor>
       <Experience/>
-      {/* <Wavy /> */}
     </Canvas>
   );
 };

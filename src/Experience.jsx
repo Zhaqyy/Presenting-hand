@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/no-unknown-property */
 
 import {
   Environment,
@@ -7,7 +5,7 @@ import {
   GradientTexture,
 } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
-import { Perf } from "r3f-perf";
+// import { Perf } from "r3f-perf";
 import { Suspense, useRef, useEffect } from "react";
 import { easing } from "maath";
 import { DoubleSide } from "three";
@@ -18,7 +16,7 @@ import DesktopModel from "./DesktopModel";
 export default function Experience() {
   return (
     <>
-      <Perf position="top-left" />
+      {/* <Perf position="top-left" /> */}
 
       <Light />
       <ambientLight intensity={1} />
@@ -92,7 +90,7 @@ function CameraRig({ children }) {
     easing.dampE(
       group.current.rotation,
       [state.pointer.y / 25, -state.pointer.x / 25, 0],
-      0.25,
+      0.5,
       delta
     );
   });

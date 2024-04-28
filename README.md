@@ -1,6 +1,6 @@
-# Cool Stuff
+# Presenting Hand
 
-_A showcase for a cool stuff_
+_A showcase for a Hand Presenting something a product, your company logo or anything presenting, definitely not inspired by Nokia, seriously it's NOT!_
 
 <!-- ![Preview](/public/preview.gif) -->
 
